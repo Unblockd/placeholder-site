@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;400&family=Rock+3D&display=swap" rel="stylesheet"></link>
       <main className={styles.main}>
         <h1 className={styles.title}>
-        UNBLOCK.D
+          unblock.d
         </h1>
 
         <img src="/soon.png" alt="Logo" />
