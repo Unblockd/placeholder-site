@@ -24,12 +24,6 @@ const Home: NextPage = () => {
 
       </main>
 
-      <footer className={styles.footer}>
-        <a
-        >
-          unblock.d - Sydney, Australia
-        </a>
-      </footer>
     </div>
   )
 }
