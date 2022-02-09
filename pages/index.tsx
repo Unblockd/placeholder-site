@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 // import Code from '../components/code'
+        // <link rel="icon" href="/favicon.ico" />
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +11,6 @@ const Home: NextPage = () => {
       <Head>
         <title>unblock.d - coming soon</title>
         <meta name="description" content="unblock.d - coming soon" />
-        // <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
