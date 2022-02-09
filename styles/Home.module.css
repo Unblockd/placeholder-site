@@ -1,3 +1,5 @@
+@import url('ttps://fonts.googleapis.com/css2?family=Fira+Code&family=M+PLUS+1+Code:wght@100;400&family=Rock+3D&display=swap');
+
 .container {
   padding: 0 2rem;
 }
@@ -40,6 +42,8 @@
 }
 
 .title {
+  font-family: 'Fira Code', monospace;
+  /* font-family:'M PLUS 1 Code', sans-serif; */
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
