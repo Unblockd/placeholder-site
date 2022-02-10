@@ -16,11 +16,20 @@ const Home: NextPage = () => {
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;400&family=Rock+3D&display=swap" rel="stylesheet"></link>
       <main className={styles.main}>
+                <div>
+
         <h1 className={styles.title}>
           unblock.d
         </h1>
+                                </div>
+                <div>
 
-        <img src="/soon.png" alt="Logo" />
+        <img src="/soon.png" alt="Logo" className={styles.snippet} />
+                                </div>
+
+        <h1 className={styles.title}>
+          comingsoo.n
+        </h1>
 
       </main>
 
