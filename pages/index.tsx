@@ -1,40 +1,26 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 // import Code from '../components/code'
-        // <link rel="icon" href="/favicon.ico" />
+// <link rel="icon" href="/favicon.ico" />
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>unblock.d - coming soon</title>
         <meta name="description" content="unblock.d - coming soon" />
       </Head>
-
-      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-      <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;400&family=Rock+3D&display=swap" rel="stylesheet"></link>
-      <main className={styles.main}>
-                <div>
-
-        <h1 className={styles.title}>
-          unblock.d
-        </h1>
-                                </div>
-                <div>
-
-        <img src="/soon.png" alt="Logo" className={styles.snippet} />
-                                </div>
-
-        <h1 className={styles.title}>
-          comingsoo.n
-        </h1>
-
-      </main>
+        <div className={styles.center}>
+          <img src="/soon.png" alt="Logo"/>
+        </div>
+    <div className={styles.center}>
+        <img src="/logo.png" alt="Logo"/>
+        </div>
 
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
